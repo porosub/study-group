@@ -3,15 +3,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  title: 'POROS Study Group Docs',
+  tagline: 'Material Docs',
+  url: 'https://porosub.github.io/study-group',
+  baseUrl: '/study-group/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'study-group', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Site',
@@ -28,7 +28,7 @@ module.exports = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/porosub/study-group',
           label: 'GitHub',
           position: 'right',
         },
@@ -41,8 +41,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Cyber Security',
+              to: '/docs/intro-cys',
             },
           ],
         },
@@ -72,7 +72,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/porosub/study-group',
             },
           ],
         },
