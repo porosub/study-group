@@ -1,0 +1,1 @@
+(self.webpackChunkstudy_group=self.webpackChunkstudy_group||[]).push([[599],{2785:function(u){"use strict";u.exports=JSON.parse('{"allTagsPath":"/study-group/blog/tags","slug":"docusaurus","name":"docusaurus","count":3,"permalink":"/study-group/blog/tags/docusaurus"}')}}]);
