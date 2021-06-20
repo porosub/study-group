@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'POROS Study Group Docs',
   tagline: 'Material Docs',
-  url: 'https://porosub.github.io/study-group',
+  url: 'https://porosub.github.io/',
   baseUrl: '/study-group/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
