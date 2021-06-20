@@ -22,9 +22,9 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'intro-cys',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Cyber Security',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
