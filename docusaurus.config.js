@@ -14,7 +14,7 @@ module.exports = {
   projectName: 'study-group', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Study Group',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -22,9 +22,21 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'intro-cys',
+          docId: 'cys/intro',
           position: 'left',
           label: 'Cyber Security',
+        },
+				{
+          type: 'doc',
+          docId: 'ops/intro',
+          position: 'left',
+          label: 'Operation',
+        },
+				{
+          type: 'doc',
+          docId: 'dev/intro',
+          position: 'left',
+          label: 'Developer',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -42,7 +54,15 @@ module.exports = {
           items: [
             {
               label: 'Cyber Security',
-              to: '/docs/intro-cys',
+              to: '/docs/cys/intro',
+            },
+						{
+              label: 'Operation',
+              to: '/docs/ops/intro',
+            },
+						{
+              label: 'Developer',
+              to: '/docs/dev/intro',
             },
           ],
         },
@@ -68,7 +88,7 @@ module.exports = {
           items: [
             {
               label: 'Blog',
-              to: '/blog',
+              to: 'https://medium.com/porosfilkom',
             },
             {
               label: 'GitHub',
