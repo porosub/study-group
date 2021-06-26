@@ -38,7 +38,6 @@ module.exports = {
           position: 'left',
           label: 'Developer',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/porosub/study-group',
           label: 'GitHub',
@@ -70,16 +69,12 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/QvHqMBtPv5',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Instagram',
+              href: 'https://instagram.com/porosfilkom',
             },
           ],
         },
@@ -97,7 +92,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Study Group, POROS UB Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
@@ -112,13 +107,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/porosub/study-group/edit/main/docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://medium.com/porosfilkom',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
